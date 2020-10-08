@@ -1,0 +1,58 @@
+body {
+    margin: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    display: grid;
+    justify-content: center;
+    background: #7eade6;
+}
+
+.title {
+    color: #16697A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.entry-textbox {
+    background-color: #c87ee6;
+    width: 20em;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border: unset;
+    border-radius: 25px;
+}
+
+.entry-textbox:focus {
+    outline: none;
+    box-shadow: 0px 0px 2px #000;
+}
+
+#entryForm .button {
+    border: unset;
+    border-radius: 25px;
+    padding: 5px 16px;
+    margin-left: 76%;
+}
+ 
+ #entries {
+     background: #7ee6d0;
+     color: #EDE7E3;
+     font-family: cursive;
+     padding: 2em;
+     max-width: 20em;
+     border: unset;
+     border-radius: 25px;
+     margin-top: 1em;
+ }
+ 
+ .entries-nav {
+     padding-bottom: 1em;
+ }
+ 
+ .display-entry-button {
+     margin: 0.2em;
+ }
+ 
+ .display-entry-button:hover {
+     cursor: pointer;
+ }
