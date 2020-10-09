@@ -14,8 +14,8 @@ body {
 
 .entry-textbox {
     background-color: #c87ee6;
-    width: 20em;
-    height: 10em;
+    width: 30em;
+    height: 15em;
     padding: 1em;
     margin-bottom: 0.5em;
     border: unset;
@@ -31,7 +31,7 @@ body {
     border: unset;
     border-radius: 25px;
     padding: 5px 16px;
-    margin-left: 76%;
+    margin-left: 80%;
 }
  
  #entries {
@@ -43,6 +43,15 @@ body {
      border: unset;
      border-radius: 25px;
      margin-top: 1em;
+ }
+ #deleteBtn {
+   border: unset;
+   border-radius: 25px;
+   padding: 5px 16px;
+   margin: 0.5em;
+   max-width: 25em;
+   margin-left: 65%;
+   white-space: nowrap;
  }
  
  .entries-nav {
